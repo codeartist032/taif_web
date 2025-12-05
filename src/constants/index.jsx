@@ -13,166 +13,148 @@ import user5 from "../assets/profile-pictures/user5.jpg";
 import user6 from "../assets/profile-pictures/user6.jpg";
 
 export const navItems = [
-  { label: "Features", href: "#" },
-  { label: "Workflow", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Testimonials", href: "#" },
+  { label: "مميزات", href: "#" },
+  { label: "الية التحسين", href: "#" },
+  { label: "منتجاتنا", href: "#" },
+  { label: "اراء الزبائن", href: "#" },
+  { label: "من نحن", href: "#" },
 ];
 
 export const testimonials = [
   {
-    user: "John Doe",
-    company: "Stellar Solutions",
+    user: "أحمد العلي",
+    company: "شركة النمو السريع",
     image: user1,
-    text: "I am extremely satisfied with the services provided. The team was responsive, professional, and delivered results beyond my expectations.",
+    text: "حققت استراتيجياتكم نمواً ملحوظاً في مبيعاتنا وزادت نسبة العائد على الاستثمار بنسبة 40% خلال الربع الأول.",
   },
   {
-    user: "Jane Smith",
-    company: "Blue Horizon Technologies",
+    user: "سارة محمد",
+    company: "إبداع تك",
     image: user2,
-    text: "I couldn't be happier with the outcome of our project. The team's creativity and problem-solving skills were instrumental in bringing our vision to life",
+    text: "ساعدتنا خطة المحتوى المحكمة على بناء جمهور حقيقي ومشارك، مما عزز من مصداقية علامتنا التجارية في السوق.",
   },
   {
-    user: "David Johnson",
-    company: "Quantum Innovations",
+    user: "خالد يوسف",
+    company: "حلول التسويق",
     image: user3,
-    text: "Working with this company was a pleasure. Their attention to detail and commitment to excellence are commendable. I would highly recommend them to anyone looking for top-notch service.",
+    text: "تصدرنا نتائج البحث بفضل جهودكم في تحسين محركات البحث، مما جلب لنا عدداً كبيراً من الزيارات العضوية المجانية.",
   },
   {
-    user: "Ronee Brown",
-    company: "Fusion Dynamics",
+    user: "منى عبدالله",
+    company: "رؤية المستقبل",
     image: user4,
-    text: "Working with the team at XYZ Company was a game-changer for our project. Their attention to detail and innovative solutions helped us achieve our goals faster than we thought possible. We are grateful for their expertise and professionalism!",
+    text: "تضاعف عدد العملاء المحتملين خلال شهرين فقط بفضل حملاتكم الإعلانية المستهدفة بدقة عالية.",
   },
   {
-    user: "Michael Wilson",
-    company: "Visionary Creations",
+    user: "فيصل العمر",
+    company: "القمة للخدمات",
     image: user5,
-    text: "I am amazed by the level of professionalism and dedication shown by the team. They were able to exceed our expectations and deliver outstanding results.",
+    text: "أصبحت علامتنا التجارية أكثر قوة وتأثيراً في السوق بفضل استراتيجياتكم المبتكرة في تحديد التموضع.",
   },
   {
-    user: "Emily Davis",
-    company: "Synergy Systems",
+    user: "ليلى حسن",
+    company: "تقنية الغد",
     image: user6,
-    text: "The team went above and beyond to ensure our project was a success. Their expertise and dedication are unmatched. I look forward to working with them again in the future.",
+    text: "التقارير التحليلية الدورية ساعدتنا على فهم السوق بشكل أفضل واتخاذ قرارات استراتيجية صائبة.",
   },
 ];
 
 export const features = [
   {
     icon: <BotMessageSquare />,
-    text: "Drag-and-Drop Interface",
+    text: "حملات البريد الإلكتروني",
     description:
-      "Easily design and arrange your VR environments with a user-friendly drag-and-drop interface.",
+      "أنشئ حملات بريد إلكتروني مخصصة ومؤتمتة لزيادة التفاعل وتحقيق التحويلات مع أدواتنا المتطورة.",
   },
   {
     icon: <Fingerprint />,
-    text: "Multi-Platform Compatibility",
+    text: "تعزيز الحضور الرقمي",
     description:
-      "Build VR applications that run seamlessly across multiple platforms, including mobile, desktop, and VR headsets.",
+      "أدر جميع منصات التواصل الاجتماعي من مكان واحد، وجدول المنشورات لتوسيع نطاق وصولك وبناء جمهورك.",
   },
   {
     icon: <ShieldHalf />,
-    text: "Built-in Templates",
+    text: "تحسين محركات البحث",
     description:
-      "Jumpstart your VR projects with a variety of built-in templates for different types of applications and environments.",
+      "حسن ترتيب موقعك باستخدام أدوات SEO متقدمة لضمان وصول عملائك المستهدفين إليك بسهولة وفعالية.",
   },
   {
     icon: <BatteryCharging />,
-    text: "Real-Time Preview",
+    text: "إدارة وتسويق المحتوى",
     description:
-      "Preview your VR application in real-time as you make changes, allowing for quick iterations and adjustments.",
+      "خطط، أنشئ، وانشر محتوى جذاب عبر قنوات متعددة لبناء علاقة قوية ومستدامة مع جمهورك.",
   },
   {
     icon: <PlugZap />,
-    text: "Collaboration Tools",
+    text: "جذب واستقطاب العملاء",
     description:
-      "Work together with your team in real-time on VR projects, enabling seamless collaboration and idea sharing.",
+      "استخدم نماذج مخصصة وصفحات هبوط فعالة لتحويل الزوار إلى عملاء محتملين ثم إلى عملاء دائمين.",
   },
   {
     icon: <GlobeLock />,
-    text: "Analytics Dashboard",
+    text: "تحليلات وقرارات ذكية",
     description:
-      "Gain valuable insights into user interactions and behavior within your VR applications with an integrated analytics dashboard.",
+      "تتبع أداء حملاتك بتقارير شاملة واتخذ قرارات مبنية على البيانات لزيادة العائد على الاستثمار.",
   },
 ];
 
 export const checklistItems = [
   {
-    title: "Code merge made easy",
+    title: "تحليل الأداء الحالي",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "قم بتحليل شامل لأداء مشروعك الحالي لتحديد الفجوات وفرص التحسين المتاحة.",
   },
   {
-    title: "Review code without worry",
+    title: "تحديد الجمهور المستهدف",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "افهم جمهورك بعمق لإنشاء رسائل تسويقية موجهة ومؤثرة تلبي احتياجاتهم.",
   },
   {
-    title: "AI Assistance to reduce time",
+    title: "تحسين استراتيجية المحتوى",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "طور استراتيجية محتوى قوية تجذب الانتباه وتعزز مكانة علامتك التجارية.",
   },
   {
-    title: "Share work in minutes",
+    title: "التنفيذ والمتابعة",
     description:
-      "Track the performance of your VR apps and gain insights into user behavior.",
+      "ابدأ تنفيذ حملاتك وتابع النتائج باستمرار لضمان تحقيق أقصى عائد ممكن.",
   },
 ];
 
 export const pricingOptions = [
   {
-    title: "Free",
-    price: "$0",
+    title: "Soft-Touch Sensory Marketing Loop",
+    price: "99",
     features: [
-      "Private board sharing",
-      "5 Gb Storage",
-      "Web Analytics",
-      "Private Mode",
+      "ارتفاع ملحوظ في التفاعل",
+      "زيادة كبيرة في رضا العملاء",
+      "ارتفاع تدريجي وواضح في المبيعات",
+      "استراتيجية قابلة للتطبيق فوراً",
     ],
-  },
-  {
-    title: "Pro",
-    price: "$10",
-    features: [
-      "Private board sharing",
-      "10 Gb Storage",
-      "Web Analytics (Advance)",
-      "Private Mode",
-    ],
-  },
-  {
-    title: "Enterprise",
-    price: "$200",
-    features: [
-      "Private board sharing",
-      "Unlimited Storage",
-      "High Performance Network",
-      "Private Mode",
-    ],
+    paymentLink: "https://buy.stripe.com/test_aFa9AUc2CbZi5Vk8Yk8og00",
   },
 ];
 
 export const resourcesLinks = [
-  { href: "#", text: "Getting Started" },
-  { href: "#", text: "Documentation" },
-  { href: "#", text: "Tutorials" },
-  { href: "#", text: "API Reference" },
-  { href: "#", text: "Community Forums" },
+  { href: "#", text: "دليل البدء" },
+  { href: "#", text: "المدونة" },
+  { href: "#", text: "دراسات الحالة" },
+  { href: "#", text: "دليل الاستراتيجيات" },
+  { href: "#", text: "الأسئلة الشائعة" },
 ];
 
 export const platformLinks = [
-  { href: "#", text: "Features" },
-  { href: "#", text: "Supported Devices" },
-  { href: "#", text: "System Requirements" },
-  { href: "#", text: "Downloads" },
-  { href: "#", text: "Release Notes" },
+  { href: "#", text: "الاستراتيجيات" },
+  { href: "#", text: "التسويق الحسي" },
+  { href: "#", text: "تحسين التفاعل" },
+  { href: "#", text: "دراسة الحالة" },
+  { href: "#", text: "الشهادات" },
 ];
 
 export const communityLinks = [
-  { href: "#", text: "Events" },
-  { href: "#", text: "Meetups" },
-  { href: "#", text: "Conferences" },
-  { href: "#", text: "Hackathons" },
-  { href: "#", text: "Jobs" },
+  { href: "#", text: "تواصل معنا" },
+  { href: "#", text: "واتساب" },
+  { href: "#", text: "إنستقرام" },
+  { href: "#", text: "سناب شات" },
+  { href: "#", text: "تويتر" },
 ];
