@@ -38,7 +38,11 @@ const Navbar = () => {
           </div> */}
           <div className="lg:hidden md:flex flex-col justify-center absolute right-4">
             <button onClick={toggleNavbar}>
-              {mobileDrawerOpen ? <X /> : <Menu />}
+              {mobileDrawerOpen ? (
+                <X className="text-primary-peach" />
+              ) : (
+                <Menu className="text-primary-peach" />
+              )}
             </button>
           </div>
         </div>
