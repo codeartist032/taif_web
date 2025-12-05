@@ -40,7 +40,7 @@ const Pricing = () => {
               </ul>
               <button
                 onClick={() => window.open(option.paymentLink, "_blank")}
-                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl bg-primary-old-burgundy text-white hover:opacity-90 border-0 rounded-lg transition duration-500 cursor-pointer"
+                className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl bg-primary-old-burgundy text-white hover:opacity-90 border-2 border-primary-peach rounded-lg transition duration-500 cursor-pointer"
               >
                 شراء
               </button>
