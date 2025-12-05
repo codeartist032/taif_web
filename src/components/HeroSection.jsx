@@ -4,10 +4,10 @@ const HeroSection = () => {
   return (
     <div className="flex flex-col items-center mt-6 lg:mt-20">
       <h1 className="text-4xl sm:text-6xl lg:text-7xl text-center tracking-wide">
-        رحلة صنعة و طيف
+     طيف تبتكر صُنْعَة: 
         <span className="text-primary-dark">
           {" "}
-          نحو تطوير استراتيجية تسويقية
+منهج يحوّل إحساس المتجر إلى استراتيجية تسويق متكامل
         </span>
       </h1>
       <p className="mt-10 text-lg text-center text-black/100 max-w-4xl">

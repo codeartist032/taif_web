@@ -9,13 +9,13 @@ const Workflow = () => {
         تحسين <span className="text-primary-old-burgundy">مشروعك</span>
       </h2>
       <div className="flex flex-wrap justify-center">
-        <div className="p-2 w-full lg:w-1/2">
+        {/* <div className="p-2 w-full lg:w-1/2">
           <img
             src={codeImg}
             alt="Coding"
             className="w-full h-full object-cover rounded-lg shadow-lg border border-primary-mauve/40"
           />
-        </div>
+        </div> */}
         <div className="pt-12 w-full lg:w-1/2">
           {checklistItems.map((item, index) => (
             <div key={index} className="flex mb-12">
