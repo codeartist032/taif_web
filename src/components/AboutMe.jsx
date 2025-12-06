@@ -13,7 +13,7 @@ const AboutMe = () => {
             <div className="bg-gradient-to-r from-primary-burgundy to-primary-mauve rounded-lg p-1">
               <div className="bg-primary-old-burgundy rounded-lg p-8">
                 <h3 className="text-2xl font-semibold mb-4 text-primary-burgundy">
-                  طيف آل ظفار
+                  طيف آل ظافر
                 </h3>
                 <p className="text-lg text-primary-cream/80 leading-relaxed mb-6 space-y-2">
                   عن صُنْعَة وطيف أنا طيف آل ظافر دمجت خبرتي بالمبيعات مع دراستي

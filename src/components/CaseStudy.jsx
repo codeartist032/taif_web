@@ -8,7 +8,7 @@ const CaseStudy = () => {
             الاستراتيجية
           </h2>
           <p className="mt-4 text-xl text-black/70">
-            فرع نعومي مكة – طيف آل ظفار
+            فرع نعومي مكة – طيف آل ظافر
           </p>
         </div>
 
