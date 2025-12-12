@@ -117,7 +117,7 @@ export const checklistItems = [
 export const pricingOptions = [
   {
     title: "Soft-Touch Sensory Marketing Loop",
-    price: "33",
+    price: "39",
     features: [
       "ارتفاع ملحوظ في التفاعل",
       "زيادة كبيرة في رضا العملاء",
